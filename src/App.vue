@@ -10,7 +10,7 @@
         
          <!-- <img class="littlebubble " src="./assets/media/littlebubble.png"> -->
           <!-- <img class="littlenek " src="./assets/media/littlenek.png"> -->
-           <img class="littlewave " src="./assets/media/tank.png">
+           <img class="tank" src="./assets/media/tank.png">
              <img class="towScrew " src="./assets/media/towburg.png">
 
   </div>
@@ -169,10 +169,10 @@ body,
     z-index: 0;
 }
 
-.littlewave {
+.tank {
     position: absolute;
     width: 260px;
-    top: -10px;
+    top: -40px;
     right: 10px;
     opacity: .75;
     z-index: 0;
@@ -202,11 +202,11 @@ body,
 }
 
 .towScrew {
-    position: absolute;
+position: absolute;
     width: 250px;
     top: 350px;
-    right: -90px;
+    right: -40px;
     z-index: 0;
-    opacity: 70%;
+    opacity: 90%;
 }
 </style>
