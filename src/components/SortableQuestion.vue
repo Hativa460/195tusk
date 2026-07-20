@@ -177,7 +177,7 @@ methods: {
 <style scoped>
 
 #sortable {
-  margin-top: 30%;
+  margin-top: 22%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -219,7 +219,7 @@ methods: {
 
 .steps-container {
   text-align: center;
-  width: 100%;
+  width: 85%;
   margin-top: 20px;
       border: #ceb394 solid 2px;
     padding: 20px;

@@ -203,7 +203,7 @@ export default {
 <style scoped>
 
 #select-multiple{
-  margin-top:20%;
+  margin-top:15%;
   width:100%;
   display:flex;
   justify-content:center;
@@ -247,7 +247,7 @@ export default {
 }
 
 .options-container{
-  width:70%;
+  width:80%;
   margin-top:10px;
     background-color: #ffffff33;
     border: #ceb394 solid 2px;
@@ -310,7 +310,7 @@ export default {
 }
 
 .selected{
-  border-color:#a1480d !important;
+  border:2px solid #a1480d;
   box-shadow:0 0 15px rgba(161, 85, 13, 0.219);
 }
 

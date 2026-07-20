@@ -467,7 +467,7 @@ this.points=0;
 }
 
 .popup{
-  width:85%;
+  width:75%;
   max-width:420px;
   background:white;
   border-radius:25px;

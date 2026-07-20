@@ -340,7 +340,7 @@ this.$emit("next-question");
 
 .optionscontainr {
       /* margin-bottom: 30px; */
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 12px 35px rgba(74, 50, 31, 0.45);
    width:85%;

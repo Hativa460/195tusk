@@ -406,7 +406,7 @@ export default {
 
 .popup{
 
-  width:85%;
+  width:75%;
 
   max-width:430px;
 
