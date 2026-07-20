@@ -220,7 +220,7 @@ methods: {
 .steps-container {
   text-align: center;
   width: 85%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
       border: #ceb394 solid 2px;
     padding: 20px;
     border-radius: 20px;

@@ -117,7 +117,7 @@ export default {
 
 <style scoped>
 #american {
-  margin-top: 20%;
+  margin-top: 10%;
   width: 100%;
   display: flex;
   flex-direction: column;

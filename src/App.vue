@@ -6,11 +6,12 @@
         <open-page v-if="page === 1" @next-page="nextPage"></open-page>
         <test-page v-if="page === 2" @to-end="scoreAndMovePage"></test-page>
         <end-page v-if="page === 3" :grade="gradeInTest" @again="restart"></end-page>
-         <img class="littlebubble " src="./assets/media/littlebubble.png">
-          <img class="littlenek " src="./assets/media/littlenek.png">
-           <img class="littlewave " src="./assets/media/wave.png">
-            <img class="onScrew " src="./assets/media/onScrew.png">
-             <img class="towScrew " src="./assets/media/towScrew.png">
+        <img class="onScrew " src="./assets/media/onburg.png">
+        
+         <!-- <img class="littlebubble " src="./assets/media/littlebubble.png"> -->
+          <!-- <img class="littlenek " src="./assets/media/littlenek.png"> -->
+           <img class="littlewave " src="./assets/media/tank.png">
+             <img class="towScrew " src="./assets/media/towburg.png">
 
   </div>
 </template>
@@ -87,6 +88,13 @@ body,
     height: 100%;
     margin: 0;
     overflow: hidden;
+    /* background-image: url("./assets/media/finelbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; */
+    background: #eec99c;
+
 }
 
 #app{
@@ -94,11 +102,9 @@ body,
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: #edd5bd;
 }
 
   body{
-    background-color: #edd5bd;
     overflow-x: hidden;
     margin:0;
     width:100vw;
@@ -166,8 +172,8 @@ body,
 .littlewave {
     position: absolute;
     width: 260px;
-    top: 750px;
-    right: 180px;
+    top: -10px;
+    right: 10px;
     opacity: .75;
     z-index: 0;
 }
@@ -197,10 +203,10 @@ body,
 
 .towScrew {
     position: absolute;
-    width: 180px;
-    top: 150px;
-    right: -30px;
-    /* opacity: .28; */
+    width: 250px;
+    top: 350px;
+    right: -90px;
     z-index: 0;
+    opacity: 70%;
 }
 </style>

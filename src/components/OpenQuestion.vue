@@ -211,7 +211,7 @@ export default {
 <style scoped>
 
 #open-question {
-  margin-top:10%;
+  margin-top:15%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -233,7 +233,7 @@ export default {
 .question-header {
   text-align: center;
   /* margin-bottom: 20px; */
-  height: 180px;
+  /* height: 180px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

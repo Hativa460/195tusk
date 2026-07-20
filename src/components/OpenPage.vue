@@ -55,7 +55,7 @@ export default {
     color:rgb(255, 255, 255);
     /* font-family: "Huninn"; */
     font-weight: 500;
-    font-size: 5vw;
+    font-size: 6.5vw;
     margin: 2%;
     margin-top: 10%;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);

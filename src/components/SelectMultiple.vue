@@ -203,7 +203,7 @@ export default {
 <style scoped>
 
 #select-multiple{
-  margin-top:15%;
+  margin-top:5%;
   width:100%;
   display:flex;
   justify-content:center;
@@ -248,7 +248,7 @@ export default {
 
 .options-container{
   width:80%;
-  margin-top:10px;
+  margin:10px;
     background-color: #ffffff33;
     border: #ceb394 solid 2px;
     padding: 20px;

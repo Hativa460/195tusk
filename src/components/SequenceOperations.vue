@@ -259,7 +259,7 @@ this.$emit("next-question");
 }
 
 .question-container{
-  width:100%;
+  width:87%;
   max-width:400px;
   padding:20px;
   box-sizing:border-box;
